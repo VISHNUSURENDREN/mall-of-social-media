@@ -41,6 +41,8 @@
     align-items: center;
     margin-left: 10px;
 }
+
+
 @media screen and (max-width:600px) {
     .topbar .topbar_contact label {
         display: none;

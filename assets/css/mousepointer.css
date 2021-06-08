@@ -6,15 +6,16 @@ body {
     height: 100%;
     background: #1b1b1b;
   }
+
   
   .cursorpointer {
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     /* border: 1.5px solid rgb(113, 174, 255); */
     background-color: white;
     border-radius: 50%;
     position: absolute;
-    top: -40px;
+    /* top: -40px; */
     -webkit-transition-duration: 200ms;
             transition-duration: 200ms;
     -webkit-transition-timing-function: ease-out;
@@ -29,8 +30,8 @@ body {
   
   .cursordot {
     content: "";
-    width: 10px;
-    height: 10px;
+    width: 11px;
+    height: 11px;
     background-color: white;
     position: absolute;
     border-radius: 50%;
@@ -40,7 +41,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0; */
-    transform: translate(120%, 120%);
+    transform: translate(65%, 53%);
     z-index: 99999;
     mix-blend-mode: difference;
     pointer-events: none;
@@ -129,5 +130,4 @@ body {
             animation: cursorpointerAnim3 .5s forwards;
     border: 1px solid red;
   }
-
-  /*# sourceMappingURL=mousepointer.css.map */
+  

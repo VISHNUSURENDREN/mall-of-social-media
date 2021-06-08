@@ -7,7 +7,7 @@
     position: relative;
 }
 .page1,.page2,.page3,.page4{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     position: absolute;
     background-color: #0b0c10;

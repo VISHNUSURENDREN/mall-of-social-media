@@ -134,8 +134,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   background: #fff;
   z-index: 997;
-  padding: 10px 0 !important;
+  padding: 10px 0;
   border-bottom: 1px solid #e6f2fb;
+  background-color: red !important;
 }
 
 #header.header-scrolled {
@@ -165,6 +166,16 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   #header .logo a{
     font-size: 28px;  
+  }
+}
+@media screen and (min-width:1500px) {
+  #header {
+      padding: 0px 0 !important;
+      height: 15%;
+      
+  } 
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1280px;
   }
 }
 
@@ -299,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   /* height: 100vh; */
   position: relative;
-  background: url("../img/background1.jpg")repeat fixed 100% ;
+  /* background: url("../img/background1.jpg")repeat fixed 100% ; */
   background-size: cover;
   position: relative;   
 }
@@ -596,7 +607,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url("../img/background1.jpg")repeat fixed 100% ;
+  /* background: url("../img/background1.jpg")repeat fixed 100% ; */
   background-size: cover;
   position: relative;
 }
@@ -770,7 +781,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 80px 0;
+  /* padding: 80px 0; */
   overflow: hidden;
 }
 
@@ -805,13 +816,13 @@ section {
 # About
 --------------------------------------------------------------*/
 .about{
-  height: 780px;
+  /* height: 780px; */
   display: flex;
   align-items: center;
 }
 @media (max-width: 768px) {
   .about{
-    height: 867px;
+    height: auto;
   }
   .about .content ul{
     font-size: 14px;
@@ -2458,7 +2469,7 @@ input[type=file]::file-selector-button:hover {
     padding:20px !important;
   }
   #hero {
-    background: url("../img/background2.jpg") repeat fixed;
+    /* background: url("../img/background2.jpg") repeat fixed; */
   }
 }
 /*--------------------------------------------------------------
