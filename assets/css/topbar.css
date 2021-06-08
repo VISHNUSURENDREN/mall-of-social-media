@@ -1,0 +1,86 @@
+.topbar{
+    padding-bottom: 3px;
+    padding-top: 5px;
+    height: 30px;
+}
+.topbar .topbar_contact{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 50%;
+    margin-top:2px;
+    margin-left: 20px;
+}
+.topbar .topbar_social_media{
+    position: absolute;
+    top: 0;
+    right: 2%;
+    display: flex;
+    float: right;
+    margin-top:2px;
+    
+}
+.topbar .topbar_contact label {
+    font-size: 13px;
+    padding-bottom: 2px;
+}
+.topbar .topbar_social_media label{
+    margin-left: 17px;
+}
+.topbar .bx{    
+    color: #66fcf1;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-right: 6px;
+}
+.topbar a{
+    color: #45a29e;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+@media screen and (max-width:600px) {
+    .topbar .topbar_contact label {
+        display: none;
+    }
+    .topbar a{
+        display: unset;
+
+    }
+    
+    .topbar {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    .topbar .topbar_contact {
+        position: relative;
+        float: right;
+        display: unset;
+        text-align: unset;
+        width: unset;
+        margin-top: 0px;
+    }
+    .topbar .topbar_social_media {
+        position: relative;
+        float: left;
+        display: unset;
+        text-align: unset;
+        width: unset;
+        margin-top: 0px;
+        margin-left:10px;
+    }
+    .mobile-nav-toggle{
+        top: 43px !important;
+    }
+    .mobile-nav {
+        top: 79px !important;
+    }    
+    .get-started-btn{
+        font-size: 11px !important;
+    }
+}

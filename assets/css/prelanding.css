@@ -1,0 +1,38 @@
+.intro {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 998;
+}
+.slider {
+    background: linear-gradient( #1f2833, #45a29e);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    z-index: 998;
+}
+  
+.intro-text {
+    color: rgb(233, 233, 233);
+    font-family: "Heebo", sans-serif;
+}
+  
+.hide {
+    background: black;
+    overflow: hidden;
+    font-size: 5rem !important;
+}
+  
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}

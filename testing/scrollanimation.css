@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.animate{
+    position: relative;
+}
+.page1,.page2,.page3,.page4{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: #0b0c10;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.page2,.page3,.page4{
+    transform: scale(1);
+    opacity: 1;
+    border-radius: 0;
+}
+.page1,.animate{
+    opacity: 1;
+}
+.footer,.animate{
+    height: 100vh;
+    width: 100%;
+}
