@@ -5,21 +5,8 @@
 <link rel="stylesheet" href="intl-tel-input-master/build/css/intlTelInput.css">
 <main id="main">
 
-    <!-- ======= Breadcrumbs ======= -->
-  <section class="breadcrumbs">
-    <div class="container">
 
-      <div class="d-flex justify-content-between align-items-center">
-        <ol>
-          <li><a href="index.php">Home</a></li>
-          <li>We are Hiring</li>
-        </ol>
-      </div>
-
-    </div>
-  </section><!-- End Breadcrumbs -->
-
-  <section class="inner-page services section-bg" id="hero">
+  <section class="inner-page services section-bg">
     <div class="container-fluid  position-relative formWidth"  data-aos="fade-up" data-aos-delay="100">
       <div class="form">
         <div class="row justify-content-center">

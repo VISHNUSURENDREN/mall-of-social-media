@@ -1,14 +1,17 @@
+
+<style>
+  
+</style>
 <!-- ======= Services Section ======= -->
+<div class="serviceHeader">
+  <h1 class="h1Service">OUR SERVICES</h1>
+</div>
 <section id="services" class="services serviceSection-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Sevices</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
+      <div class="container" id="spaceplease" data-aos="fade-up">
+        
+        
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100" id="box1">
             <div class="icon-box iconbox-blue icon-box-main" onclick="(servicepage('graphic-Design.php'))">
               <div class="icon">
                 <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -21,7 +24,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200" id="box2">
             <div class="icon-box iconbox-orange icon-box-main" onclick="(servicepage('digital-marketing.php'))">
               <div class="icon">
                 <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -34,7 +37,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300" id="box3">
             <div class="icon-box iconbox-pink icon-box-main" onclick="(servicepage('writing-Translation.php'))">
               <div class="icon">
                 <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +50,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100" id="box4">
             <div class="icon-box iconbox-yellow icon-box-main" onclick="(servicepage('video-Animation.php'))">
               <div class="icon">
                 <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -60,7 +63,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200" id="box5">
             <div class="icon-box iconbox-red icon-box-main" onclick="(servicepage('programming-Tech.php'))">
               <div class="icon">
                 <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +76,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300" id="box6">
             <div class="icon-box iconbox-teal icon-box-main" onclick="(servicepage('business.php'))">
               <div class="icon">
                 <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -91,6 +94,9 @@
 
       </div>
     </section>
+    <br>
+    <br>
+    <br>
  <script>
   function servicepage(page) {
     $(location).attr('href',page);

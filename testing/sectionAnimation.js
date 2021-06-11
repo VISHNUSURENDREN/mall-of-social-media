@@ -79,14 +79,15 @@
 const t2 = gsap.timeline({ defaults: { ease: "power1.easeinout" } });
 
 t2.to(".page1", { scale:0, borderRadius:50,opacity:0, duration: 1.5, delay: .5});
-t2.to(".page2", { scale:0, borderRadius:50,opacity:0, duration: 1.5});
-t2.to(".page3", { scale:0, borderRadius:50,opacity:0, duration: 1.5 });
-t2.to(".page4", { scale:0, borderRadius:50,opacity:0, duration: 1.5 });
+t2.to(".testimonialsp",{opacity:0})
+t2.to(".testimonialsh1",{opacity:0,duration:1.5,delay:0.5})
+t2.from(".animatecarousel",{opacity:0})
+t2.to(".animatecarousel", {opacity:1,duration:1.5,delay:0.5});
 
 const controller = new ScrollMagic.Controller();
 const scene = new ScrollMagic.Scene({
     triggerElement : ".animate",
-    duration: 5000,
+    duration: 1000,
     triggerHook: 0.1
 })
 .setTween(t2)

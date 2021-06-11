@@ -131,3 +131,10 @@ body {
     border: 1px solid red;
   }
   
+.disappear{
+  opacity: 0;
+}
+.expandalittle{
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}

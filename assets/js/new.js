@@ -20,29 +20,29 @@ function headerColor(color,fontColor) {
     $("#hideit .servicesHeader a ").css("color","#000");
     
     
-    // $(window).scroll(function() {
-    //     if ($(this).scrollTop()>200){
-    //       $(".nav-menu a").css("color","#124265");
-    //       $("#header .logo a").css("color","#124265");
-    //       $(".get-started-btn").css("backgroundColor","#124265");
-    //       $("#header").css("backgroundColor","white").css("border","0px");
-    //       $("#hideit a").css("color","#124265");
-    //       $("#hideit .servicesHeader a ").css("color","#124265");
+    $(window).scroll(function() {
+        if ($(this).scrollTop()>200){
+          $(".nav-menu a").css("color",fontColor);
+          $("#header .logo a").css("color",fontColor);
+          $(".get-started-btn").css("backgroundColor",fontColor);
+          $("#header").css("backgroundColor","#0b0c108f").css("border","0px");
+          $("#hideit a").css("color",fontColor);
+          $("#hideit .servicesHeader a ").css("color",fontColor);
 
-    //       document.getElementById("categoryDrop").classList.remove("indexHeader");
-    //       document.getElementById("header").classList.add(".header-scrolled");
-    //     }
-    //     else{
-    //       document.getElementById("categoryDrop").classList.add("indexHeader");
-    //       $("#header").css("backgroundColor",color).css("border","0px");
-    //       $(".nav-menu a").css("color",fontColor);
-    //       $("#header .logo a").css("color",fontColor);
-    //       $("#hideit a").css("color",fontColor);
-    //       $("#hideit .servicesHeader a ").css("color","#000");
+          document.getElementById("categoryDrop").classList.remove("indexHeader");
+          document.getElementById("header").classList.add(".header-scrolled");
+        }
+        else{
+          document.getElementById("categoryDrop").classList.add("indexHeader");
+          $("#header").css("backgroundColor",color).css("border","0px");
+          $(".nav-menu a").css("color",fontColor);
+          $("#header .logo a").css("color",fontColor);
+          $("#hideit a").css("color",fontColor);
+          $("#hideit .servicesHeader a ").css("color","#000");
 
-    //         $(".get-started-btn").css("backgroundColor",fontColor);
-    //     }
-    //   });
+            $(".get-started-btn").css("backgroundColor",fontColor);
+        }
+      });
 }
 function videoAnimationBackground() {
   const colors=['#2196f3', '#e91e63', '#ffeb3b', '#74ff1d', '#7D3C98', '#34495E', '#F39C12', '#F7DC6F', '#A9DFBF', '#85C1E9']

@@ -13,13 +13,15 @@
             background: #fff;
         }
         .brick-section{
-            box-sizing: border-box;
-
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            transform-style: preserve-3d;
-            perspective: 500px;
+          box-sizing: border-box;
+          position: relative;
+          width: 100%;
+          display: flex;
+          height: 100vh;
+          transform-style: preserve-3d;
+          perspective: 500px;
+          justify-content: center;
+          align-items: center;
         }
         .brick-section form{
           background:transparent;

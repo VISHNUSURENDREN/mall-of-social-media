@@ -13,17 +13,17 @@
   padding: 0;
 }
 body{
-  background-color: #111;
+  background-color: #0b0c10;
   font-family: "Open Sans", sans-serif;
 }
 
 a {
-  color: #2487ce;
+  /* color: #2487ce; */
   overflow: hidden !important;
 }
 
 a:hover {
-  color: #469fdf;
+  /* color: #469fdf; */
   text-decoration: none;
 }
 
@@ -127,16 +127,19 @@ h1, h2, h3, h4, h5, h6 {
 #hideit .servicesHeader a{
   color:#000;
 }
+#hideit{
+  background-color: #0b0c108f;
+}
 .capital{
   text-transform: capitalize !important;
 }
 #header {
   transition: all 0.5s;
-  background: #fff;
+  background: #0b0c108f;
   z-index: 997;
   padding: 10px 0;
   border-bottom: 1px solid #e6f2fb;
-  background-color: red !important;
+  /* background-color: red !important; */
 }
 
 #header.header-scrolled {
@@ -171,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width:1500px) {
   #header {
       padding: 0px 0 !important;
-      height: 15%;
+      height: 11%;
       
   } 
   .container, .container-lg, .container-md, .container-sm, .container-xl {
@@ -316,7 +319,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .serviceSection-bg:before {
   content: "";
-  background: rgba(255, 255, 255, 0.571);
+  /* background: rgba(255, 255, 255, 0.571); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -718,9 +721,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .icon-box-main{
-  padding: 70px 20px 80px 20px !important;
+  padding: 40px 20px 50px 20px !important;
   border-radius: 5px;
-  background-color: white;
+  background: -moz-linear-gradient(top, #66FCF1 0%, #1D4844 100%);
+  background: -webkit-linear-gradient(top, #66FCF1 0%, #1D4844 100%);
+  background: linear-gradient(to bottom, #66FCF1 0%, #1D4844 100%);
+
   box-shadow: 0px 5px 25px 0px rgba(43, 56, 64, 0.714);
 }
 .icon-box-main:hover{
@@ -1407,16 +1413,28 @@ a.darkbtn span:nth-child(4){
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
+.page3 .cta{
+  background-image: linear-gradient(to bottom, #0b0c10, #212d38, #2c5160, #327883, #45a29e);
+}
+.servicepageContact .cta{
+  background-image: linear-gradient(to top, #0b0c10, #212d38, #2c5160, #327883, #45a29e);
+}
 .cta {
-  background: #2487ce;
+  /* background-image: linear-gradient(to bottom, #0b0c10, #1f283a, #2c4567, #306599, #2487ce); */
+  /* background-image: linear-gradient(to bottom, #0b0c10, #1b212f, #263650, #2e4d73, #306599, #306599, #306599, #306599, #2e4d73, #263650, #1b212f, #0b0c10); */
   background-size: cover;
   padding: 60px 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .cta h3 {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
+  color: #c5c6c7;
+  font-size: 60px;
+  font-weight: 900;
 }
 
 .cta p {
@@ -1425,12 +1443,12 @@ a.darkbtn span:nth-child(4){
 
 .cta .cta-btn {
   font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 800;
+  font-size: 20px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 35px;
-  border-radius: 5px;
+  border-radius: 42px;
   transition: 0.5s;
   margin-top: 10px;
   border: 2px solid #fff;
@@ -1781,6 +1799,25 @@ a.darkbtn span:nth-child(4){
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
+.faq{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 100px 0px;
+  background-image: linear-gradient(to top, #0b0c10, #212d38, #2c5160, #327883, #45a29e);
+}
+.faq .faqtitle{
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  padding-bottom: 0;
+  color: #124265;
+}
 .faq .faq-list {
   padding: 0 100px;
 }
@@ -1796,8 +1833,12 @@ a.darkbtn span:nth-child(4){
 
 .faq .faq-list li {
   padding: 20px;
-  background: #fff;
-  border-radius: 4px;
+  border: 1px solid #c4c5c6;
+  border-radius: 10px;
+  background-color: #ffffff3b;
+  color: #0b0c10;
+  text-align: left;
+  border: 1;
   position: relative;
 }
 
@@ -1837,11 +1878,7 @@ a.darkbtn span:nth-child(4){
 }
 
 .faq .faq-list a.collapsed {
-  color: #343a40;
-}
-
-.faq .faq-list a.collapsed:hover {
-  color: #2487ce;
+  color: #0b0c10;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -2283,13 +2320,13 @@ input[type=file]::file-selector-button:hover {
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #f8fbfe;
+  background: #0b0c10;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  /* background: #fff; */
 }
 
 #footer .footer-top .footer-contact {
@@ -3276,37 +3313,7 @@ background: linear-gradient(
   text-align: justify;
   line-height: normal;
 }
-@media screen and (max-width: 768px) {
-  .serviceDetail{
-    margin: 8px !important;
-  }
-  .logo-title{
-    padding: 0px 30px !important;
-    
-  }
-  .logo-container{
-    padding-top: 53px !important;
-    
-  }
-  .logo-header {
-    height: auto;
-    text-shadow:5px 5px 10px black;
-  }
-  .logo-img{
-    margin: 10px;
-  }
-}
-@media screen and (max-width: 1250px) {
 
-  .logo-header {
-    height: 80vh;
-  }
-  .logo-description {
-    line-height: normal;
-  }
-  
-
-}
 @media screen and (min-width: 1300px) {
   .logo-header {
     height: 92vh !important;
@@ -3323,6 +3330,38 @@ background: linear-gradient(
     font-size: 23px;
     padding-bottom: 30px;
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+
+  .logo-header {
+    height: 80vh;
+  }
+  .logo-description {
+    line-height: normal;
+  }
+  
+
+}
+@media screen and (max-width: 768px) {
+  .serviceDetail{
+    margin: 8px !important;
+  }
+  .logo-title{
+    padding: 15px 0px !important;
+    
+  }
+  .logo-container{
+    padding-top: 53px !important;
+    
+  }
+  .logo-header {
+    height: auto;
+    text-shadow:5px 5px 10px black;
+  }
+  .logo-img{
+    margin: 10px;
   }
 }
 
@@ -3391,7 +3430,7 @@ background: linear-gradient(
 }
 
 .custom-shape-divider-top-1619337188 .shape-fill {
-  fill: #78b9fac5;
+  fill: #45a29e;
 }
 .logo-title{
   padding: 60px 50px;
@@ -4055,3 +4094,9 @@ text-shadow:5px 5px 10px #22bfeb;
 .admin-inner-page form{
   background-color: transparent !important;
 }
+
+
+
+
+
+

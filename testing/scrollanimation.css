@@ -6,7 +6,7 @@
 .animate{
     position: relative;
 }
-.page1,.page2,.page3,.page4{
+.page1,.page2{
     height: 90vh;
     width: 100%;
     position: absolute;
@@ -17,15 +17,93 @@
     align-content: center;
     justify-content: center;
 }
-.page2,.page3,.page4{
+.page2{
     transform: scale(1);
     opacity: 1;
     border-radius: 0;
 }
-.page1,.animate{
+.page1,.animate,.page3{
     opacity: 1;
+    background-color: #0b0c10;
 }
 .footer,.animate{
     height: 100vh;
     width: 100%;
 }
+
+/* service */
+
+#box1,#box2,#box3,#box4,#box5,#box6{
+    transform:scale(1);
+  }
+.serviceHeader{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    z-index: -1;
+}
+  .serviceHeader h1{
+    font-size: 100px;
+    font-weight: 700;
+}
+#spaceplease{
+    padding: 116px 90px 64px 90px;
+}
+
+
+
+/* testimonials */
+.testimonialsh1{
+    font-size: 100px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+}
+.testimonialsp{
+    color: wheat;
+}
+.testimonialheader{
+    height: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    z-index: -1;
+
+}
+.innerTest{
+    display: block;
+}
+
+
+
+
+
+
+
+/* mobile view */
+
+  @media screen and (max-width:500px) {
+    .serviceHeader h1 {
+      font-size: 67px;
+      font-weight: 700;
+    }
+    #spaceplease {
+      padding: 116px 24px 64px 13px;
+    }
+    .faq .faqtitle {
+      font-size: 50px;
+    }
+    .testimonialsh1 {
+        font-size: 43px;
+    }
+    .innerTest{
+        text-align: left;
+    }
+  }

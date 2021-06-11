@@ -30,6 +30,12 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/mousepointer.css">
   <script src="assets/js/new.js"></script>
+  
+<link rel="stylesheet" href="testing/scrollanimation.css">
+<link rel="stylesheet" href="assets/css/prelanding.css">
+<link rel="stylesheet" href="assets/css/callingeffect.css">
+<link rel="stylesheet" href="assets/css/servicesstyle.css">
+
 
 </head>
 

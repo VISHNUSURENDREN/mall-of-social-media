@@ -14,3 +14,16 @@ document.addEventListener('click', () => {
         cursorpointer.classList.remove("expand");
     }, 500)
 })
+
+
+
+$('body').mousemove(function(evt){
+    if(event.target.nodeName == "A"){
+        cursordot.classList.add("disappear");
+        cursorpointer.classList.add("expandalittle");
+    }
+    else{
+        cursordot.classList.remove("disappear");
+        cursorpointer.classList.remove("expandalittle");
+    }
+});
